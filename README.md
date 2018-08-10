@@ -47,5 +47,5 @@
  2. model文件夹中定义各个model,并在index.js中进行配置
  3. routes 文件夹中开发各个路由页面
  4. `/products` 页面展示了路由的基本使用
- 5.`/curd` 页面展示了异步action获取数据
+ 5. `/curd` 页面展示了异步action获取数据
 

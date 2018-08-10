@@ -17,6 +17,10 @@ const app = dva({
             id: 2,
             key:2
     }],
+    users:{
+         list: [],
+         total: null
+    }
   },
 });
 
@@ -26,6 +30,7 @@ const app = dva({
 // 3. Model
 // app.model(require('./models/example').default);
 app.model(require('./models/products').default);
+app.model(require('./models/user').default);
 
 // 4. Router
 app.router(require('./router').default);

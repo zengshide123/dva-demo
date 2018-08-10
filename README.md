@@ -20,6 +20,32 @@
  - 组件、路由、数据模块结构更加明确
  - 内置Api丰富
  - 使用async action更易书写
- - 预置react全家桶 、antd组件库
+ - 预置react全家桶
  - 调试起来方便
+
+ ## 查看
+
+ 下载项目
+ ```
+    git clone https://github.com/zengshide123/dva-demo.git
+ ```
+
+ 安装依赖
+
+ ```
+   npm i 
+ ```
+
+ 启动项目
+
+ ```
+  npm start
+ ```
+ ## 项目内容
+
+ 1. router.js 进行路由配置
+ 2. model文件夹中定义各个model,并在index.js中进行配置
+ 3. routes 文件夹中开发各个路由页面
+ 4. `/products` 页面展示了路由的基本使用
+ 5.`/curd` 页面展示了异步action获取数据
 
